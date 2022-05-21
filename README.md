@@ -1,1 +1,1 @@
-# SEAFOOD
+https://granatov.github.io/SEAFOOD/
