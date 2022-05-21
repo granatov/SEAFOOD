@@ -1,0 +1,152 @@
+.header_top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 18px;
+}
+.menu {
+  margin-top: 16px;
+  /* margin-left: -71px; */
+}
+.logo {
+  margin-left: 16px;
+}
+.phone {
+  margin-right: 43px;
+  margin-top: 11px;
+}
+
+.menu_list {
+  display: flex;
+  list-style: none;
+}
+
+.menu_item + .menu_item {
+  margin-left: 30px;
+}
+
+.menu_link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #001e64;
+}
+
+.menu_link:hover {
+  border-bottom: 1px solid #001e64;
+}
+
+.header_content {
+  background-image: url(template/first_page_BG.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-bottom: 80px;
+  margin-top: -116px;
+  min-height: calc(100vh - 32px);
+}
+.title {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 95px;
+  color: #001e64;
+  max-width: 589px;
+  padding-top: 210px;
+  padding-left: 112px;
+  margin-bottom: 127px;
+}
+
+.header_slider {
+  max-width: 522px;
+  padding-left: 112px;
+  padding-top: 57px;
+  padding-bottom: 135px;
+}
+
+.header_slider_text {
+  margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+}
+
+.slick-prev,
+.slick-next {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  left: 40px;
+}
+.slick-prev {
+  top: 0;
+}
+.slick-next {
+  bottom: 0;
+}
+.slick-dots {
+  list-style: none;
+  position: absolute;
+  left: 35px;
+  top: 58px;
+  bottom: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.slick-dots button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 28px;
+  opacity: 0.5;
+}
+.slick-active button {
+  opacity: 1;
+}
+.slick-dots button::before {
+  content: "0";
+}
+
+.slick-dots li:nth-child(n + 10) button::before {
+  content: "";
+}
+
+.header_slider_btn {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  color: #fff;
+  font-size: 23px;
+  line-height: 32px;
+  padding: 14px 94px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-left: 112px;
+  display: inline-block;
+  transform: translateY(-100px);
+  position: absolute;
+  transition: all 0.3s;
+}
+.header_slider_btn:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: #001e64;
+}
+
+.header_content_box {
+  margin-right: 30px;
+  display: flex;
+  font-style: 18px;
+  line-height: 21px;
+  color: #fff;
+  margin-left: 100%;
+}
+.header_content_link_active {
+  font-weight: 700;
+  font-size: 18px;
+}

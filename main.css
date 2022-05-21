@@ -1,0 +1,235 @@
+.product {
+  padding-top: 100px;
+}
+
+.product_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.product_name {
+  width: 510px;
+  text-align: center;
+  padding-top: 41px;
+}
+
+.prod_prev {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.prod_prev,
+.prod_next {
+  border: none;
+  padding: o;
+  background-color: transparent;
+}
+
+.product_name_item + .product_name_item {
+  margin-top: 30px;
+}
+
+.product_content {
+  width: 598px;
+}
+
+.product_name_item {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  cursor: pointer;
+}
+.product_name_item.slick-current {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  /* line-height: 47px; */
+  color: #001e64;
+}
+
+.product_content_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_content_img {
+  object-fit: cover;
+  max-width: 260px;
+  max-height: 215px;
+}
+.product_content_list {
+  width: 291px;
+  list-style: none;
+}
+.product_content_item {
+  margin-bottom: 30px;
+}
+
+.product_content_item span {
+  display: block;
+  margin-bottom: 10px;
+  color: #001e64;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.product_content_title {
+  font-weight: 400;
+  font-family: "Roboto Slab";
+  padding-top: 20px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #001e64;
+  margin-bottom: 20px;
+}
+
+.product_content_text {
+  margin-bottom: 26px;
+}
+
+.product_content_btn {
+  border: 1px solid #001e64;
+  border-radius: 20px;
+  display: inline-block;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  padding: 12px 85px;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #001e64;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.product_content_btn:hover {
+  color: #fff;
+  background-color: #001e64;
+}
+
+.seafood_box {
+  background-image: url(template/seafood_BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 290px 0 95px;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.saefood_box_item {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  background-image: url(template/seafood_decor.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 180px;
+  min-height: 165px;
+  display: flex;
+}
+
+.seafood_box_items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.seafood {
+  padding: 100px 0px;
+}
+.seafood_items {
+  margin-bottom: 100px;
+}
+.seafood_item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.seafood_item_text_right .seafood_item_title {
+  max-width: 420px;
+}
+.seafood_item_text_right .seafood_item_content {
+  margin-right: 180px;
+}
+
+.seafood_item_title {
+  max-width: 490px;
+  margin-bottom: 30px;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #001e64;
+}
+.seafood_item_text {
+  max-width: 420px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #232222;
+  margin-bottom: 20px;
+}
+
+.seafood_blockquote {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.seafood_blockquote_text {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 628px;
+  margin: 0 auto;
+}
+
+.address {
+  background-image: url(template/address_img.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.address_box {
+  margin-left: auto;
+  width: 390px;
+  background-color: #fff;
+  padding: 33px 0px 33px 20px;
+}
+.address_box_text {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  width: 195px;
+  color: #001e64;
+}
+.address_box_list {
+  font-size: 18px;
+  line-height: 21px;
+}
+.address_box_item {
+  margin-top: 30px;
+}
+.address_box_item span {
+  display: block;
+}

@@ -1,0 +1,26 @@
+.footer {
+  padding: 25px 0 110px;
+}
+
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 45px 0 23px;
+}
+.footer_social_list {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 19px;
+}
+
+.footer_social_link path {
+  transition: all 0.3s;
+}
+.footer_social_link:hover svg path {
+  fill: #001e64;
+}
+.footer_wrapper .menu {
+  padding-bottom: 30px;
+}
