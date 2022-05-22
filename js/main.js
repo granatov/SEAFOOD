@@ -1,6 +1,7 @@
 $(function () {
   $(".header_slider").slick({
     dots: true,
+    verticalSwiping: true,
     prevArrow:
       '<button type="button" class="slick-prev"><img src="template/prew.svg" alt=""></button>',
     nextArrow:
@@ -12,6 +13,7 @@ $(function () {
         settings: {
           dots: false,
           arrows: false,
+          verticalSwiping: true,
           autoplay: true,
           autoplaySpeed: 2000,
         },
@@ -25,7 +27,7 @@ $(function () {
     focusOnSelect: true,
     asNavFor: ".product_content",
     vertical: true,
-
+    verticalSwiping: true,
     prevArrow:
       '<button type="button" class="prod_prev"><img src="template/prod_prev.svg" alt=""></button>',
     nextArrow:
@@ -58,12 +60,14 @@ $(function () {
     dots: false,
     // fade: true,  включить, когда будут разные описания
     arrows: false,
+    verticalSwiping: true,
     vertical: true, // выключить, когда включат fade
     responsive: [
       {
         breakpoint: 891,
         settings: {
           vertical: false,
+          verticalSwiping: false,
         },
       },
     ],
