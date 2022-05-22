@@ -1,3 +1,246 @@
-@media screen and (max-width: 1900px) {
-  /* для экранов меньше 1900 */
+@media screen and (max-width: 1440px) {
+  .header_top {
+    padding-top: 8px;
+  }
+
+  .title {
+    padding-top: 130px;
+    margin-bottom: 10px;
+  }
+  .header_slider {
+    padding-top: 36px;
+    padding-bottom: 104px;
+  }
+  .header_content {
+    margin-top: -105px;
+    padding-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .product_name {
+    width: 350px;
+  }
+
+  .footer .logo,
+  .footer .menu {
+    display: none;
+  }
+
+  .footer {
+    padding: 40px;
+  }
+  .footer_social_list {
+    padding-bottom: 0px;
+  }
+  .footer_wrapper {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .seafood_item_content {
+    padding-right: 20px;
+  }
+  .seafood_item .seafood_item_text_right {
+    padding-left: 20px;
+
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .menu_list {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    background-color: #fff;
+    display: block;
+    top: -350px;
+    transition: all 0.5s;
+    z-index: 5;
+  }
+  .menu_list.menu_list_active {
+    top: 60px;
+  }
+
+  .menu_item + .menu_item {
+    margin-left: 0px;
+  }
+  .menu_btn {
+    display: block;
+  }
+  .menu {
+    margin-left: auto;
+    margin-top: 12px;
+    margin-right: 20px;
+  }
+  .menu_link {
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .menu_link:hover {
+    border: none;
+  }
+  .product_name {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .seafood_item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .seafood_item_text_right {
+    flex-wrap: wrap-reverse;
+  }
+  .seafood_item_content {
+    padding-right: 0px;
+  }
+  .seafood_item .seafood_item_text_right {
+    padding-left: 0px;
+  }
+  .seafood_item_text_right .seafood_item_content {
+    margin-right: 0px;
+  }
+  .seafood img {
+    max-width: 100%;
+  }
+
+  .seafood_item_title,
+  .seafood_item_text {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .product_wrapper {
+    display: block;
+  }
+  .product_content {
+    margin: 0 auto;
+  }
+  .product_name {
+    width: 100%;
+    padding-top: 0;
+    margin-bottom: 80px;
+  }
+  .product_name_item + .product_name_item {
+    margin-top: 0px;
+  }
+  .product_name_item.slick-current {
+    line-height: 44px;
+  }
+  .product_name .slick-dots {
+    left: 0;
+    right: 0;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .product_name .slick-dots button {
+    height: 10px;
+    width: 10px;
+    font-size: 0;
+    border-radius: 50%;
+    background-color: #c4c4c4;
+    padding: 0;
+    margin: 0 5px;
+  }
+
+  .product_name .slick-active button {
+    background-color: #001e64;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .title {
+    font-size: 50px;
+    line-height: 66px;
+    text-align: center;
+    max-width: 100%;
+    padding-top: 170px;
+    padding-left: 0px;
+    margin-bottom: 60px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .product_content {
+    width: 100%;
+  }
+  .seafood_box {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .product_content_box {
+    display: block;
+  }
+  .product_content_list {
+    width: 100%;
+  }
+  .seafood {
+    padding: 50px 0;
+  }
+  .seafood_items {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .header_slider {
+    padding-left: 50px;
+  }
+
+  .slick-dots {
+    left: 5px;
+  }
+  .slick-prev,
+  .slick-next {
+    left: 9px;
+  }
+  .header_slider_btn {
+    margin-left: 50px;
+  }
+  .title {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .product_content_btn {
+    padding: 12px 55px;
+  }
+  .product {
+    padding-top: 50px;
+  }
+  .address {
+    background-image: none;
+  }
+  .address_box {
+    margin-left: 0;
+    width: 100%;
+    padding: 33px 0px 33px 20px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .title {
+    padding-top: 125px;
+  }
+
+  .phone {
+    margin-right: 0;
+  }
+  .logo {
+    margin-left: 0;
+  }
+  .menu_list {
+    left: 10%;
+    right: 10%;
+  }
+
+  .header_slider {
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .header_slider_btn {
+    margin-left: 0;
+  }
 }

@@ -14,6 +14,39 @@
   margin-right: 43px;
   margin-top: 11px;
 }
+.menu_btn {
+  background-color: transparent;
+  padding: 13px 0;
+  width: 40px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  display: none;
+  z-index: 10;
+}
+
+.menu_btn span {
+  height: 4px;
+  background-color: #001e64;
+  display: block;
+}
+
+.menu_btn::after,
+.menu_btn::before {
+  content: "";
+  background-color: #001e64;
+  height: 4px;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.menu_btn::before {
+  top: 0;
+}
+.menu_btn::after {
+  bottom: 0;
+}
 
 .menu_list {
   display: flex;
@@ -144,7 +177,7 @@
   font-style: 18px;
   line-height: 21px;
   color: #fff;
-  margin-left: 100%;
+  justify-content: flex-end;
 }
 .header_content_link_active {
   font-weight: 700;
